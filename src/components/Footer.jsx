@@ -27,6 +27,6 @@ const Footer = () => {
     </footer>
   );
 };
-// does adding a comment work 
+// 
 
 export default Footer;
