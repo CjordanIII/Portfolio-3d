@@ -9,7 +9,7 @@ const Footer = () => {
 
       <div className='footer-container'>
         <p>
-          © 2023 <strong>Clarence Jordan III</strong>. All rights reserved.
+          © 2023 <strong>Clarence Jordan III</strong>. All rights reserved. Inspired by this <a href="https://www.youtube.com/watch?v=0fYi8SGA20k&t=7030s" target="_blank">Click here</a>
         </p>
 
         <div className='flex gap-3 justify-center items-center'>
