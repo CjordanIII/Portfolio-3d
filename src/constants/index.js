@@ -1,9 +1,6 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
 import {
-    car,
     contact,
     css,
-    estate,
     express,
     git,
     github,
@@ -11,20 +8,15 @@ import {
     javascript,
     linkedin,
     mongodb,
-    motion,
-    mui,
     nextjs,
     nodejs,
-    pricewise,
     react,
     redux,
-    sass,
     snapgram,
-    summiz,
     tailwindcss,
-    threads,
     typescript
 } from "../assets/icons";
+import { Forage, computer, proLogistix } from "../assets/images";
 
 export const skills = [
     {
@@ -62,16 +54,8 @@ export const skills = [
         name: "MongoDB",
         type: "Database",
     },
-    {
-        imageUrl: motion,
-        name: "Motion",
-        type: "Animation",
-    },
-    {
-        imageUrl: mui,
-        name: "Material-UI",
-        type: "Frontend",
-    },
+
+
     {
         imageUrl: nextjs,
         name: "Next.js",
@@ -92,11 +76,7 @@ export const skills = [
         name: "Redux",
         type: "State Management",
     },
-    {
-        imageUrl: sass,
-        name: "Sass",
-        type: "Frontend",
-    },
+
     {
         imageUrl: tailwindcss,
         name: "Tailwind CSS",
@@ -110,119 +90,108 @@ export const skills = [
 ];
 
 export const experiences = [
-    {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
-        iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
+  {
+    title:
+      "Software Engineering Lite virtual experience program on Forage             ",
+    company_name: "JPMorgan Chase & Co.",
+    icon: Forage,
+    iconBg: "#accbe1",
+    date: " November 2023",
+    points: [
+      "Completed a simulation focused on the process of completing an engineering ticket for a system in the credit-card rewards department of JPMorgan Chase & Co..",
+      "Created a new class to get an existing system up and running .",
+      "Wrote a test suite for the class added.",
+    ],
+  },
+  {
+    title: "Package handler",
+    company_name: "Pro Logistics ",
+    icon: proLogistix,
+    iconBg: "#fbc3bc",
+    date: "Jan 2021 - Feb 2022",
+    points: [
+      "Proficient in operating forklifts, reach trucks, and cherry pickers to efficiently handle and transport packages, ensuring timely and accurate processing in a fast-paced environment.",
+      "Prioritize and adhere to strict safety protocols while using equipment, maintaining an incident-free record, and contributing to a secure work environment for all team members.",
+    ],
+  },
+  {
+    title: "Full Stack Software Developer",
+    company_name: "Freelancing",
+    icon: computer,
+    iconBg: "#b7e4c7",
+    date: "Jan 2022 - Jan 2023",
+    points: [
+      "Successfully completed a MERN stack project for a client, demonstrating proficiency in JavaScript, React.js, Express.js, and MongoDB, resulting in a fully functional and user-friendly web application..",
+      "Engaged in effective communication with a single client throughout the project, ensuring a clear understanding of requirements, timely updates, and delivering a tailored solution that met and exceeded client expectations.",
+    ],
+  },
 ];
 
 export const socialLinks = [
-    {
-        name: 'Contact',
-        iconUrl: contact,
-        link: '/contact',
-    },
-    {
-        name: 'GitHub',
-        iconUrl: github,
-        link: 'https://github.com/YourGitHubUsername',
-    },
-    {
-        name: 'LinkedIn',
-        iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
-    }
+  {
+    name: "Contact",
+    iconUrl: contact,
+    link: "/contact",
+  },
+  {
+    name: "GitHub",
+    iconUrl: github,
+    link: "https://github.com/CjordanIII?tab=repositories",
+  },
+  {
+    name: "LinkedIn",
+    iconUrl: linkedin,
+    link: "https://www.linkedin.com/in/clarencejordaniii/",
+  },
 ];
 
 export const projects = [
-    {
-        iconUrl: pricewise,
-        theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
-    },
-    {
-        iconUrl: threads,
-        theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
-    },
-    {
-        iconUrl: car,
-        theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
-    },
-    {
-        iconUrl: snapgram,
-        theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
-    },
-    {
-        iconUrl: estate,
-        theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
-    },
-    {
-        iconUrl: summiz,
-        theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
-    }
+  {
+    iconUrl: computer,
+    theme: "btn-back-red",
+    name: "Todo's app",
+    description:
+      "This app uses React.js and keeps track of what you need to do.",
+    link: "https://imaginative-genie-42e1b1.netlify.app/",
+  },
+  {
+    iconUrl: computer,
+    theme: "btn-back-green",
+    name: "Dog tender",
+    description:
+      "Created a app lets you scroll between dogs and you get to choose which picture you like and do not like.One of my first projects.",
+    link: "https://adorable-malasada-f81a6a.netlify.app/",
+  },
+  {
+    iconUrl: computer,
+    theme: "btn-back-blue",
+    name: "Password Generator",
+    description:
+      "This app generate's a strong password you can copy and past to make your passwords more secure.One of my first projects.",
+    link: "https://stellular-syrniki-9c8d6b.netlify.app/",
+  },
+  {
+    iconUrl: snapgram,
+    theme: "btn-back-pink",
+    name: "Unit Conversion",
+    description:
+      "Built a conversion app so you can convert Metric to Imperial and back to Metric.One of my first projects.",
+    link: "https://shimmering-axolotl-37e848.netlify.app/",
+  },
+  {
+    iconUrl: computer,
+    theme: "btn-back-black",
+    name: "Oldgram",
+    description:
+      "Developed a front end display of a instagram like page.One of my first projects.",
+    link: "https://quiet-semifreddo-6e92a1.netlify.app/",
+  },
+  {
+    iconUrl: computer,
+    theme: "btn-back-yellow",
+    name: "Pong(still in development)",
+    description:
+      "App that mimics pong, still in the dev process one of my first projects.",
+    link: "https://stunning-conkies-68011f.netlify.app/html/index.html",
+  },
 ];

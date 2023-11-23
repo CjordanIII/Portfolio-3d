@@ -1,15 +1,11 @@
-import CTA from "./CTA";
 import Alert from "./Alert";
+import CTA from "./CTA";
+import Footer from "./Footer";
 import Loader from "./Loader";
 import Navbar from "./Navbar";
-import Footer from "./Footer";
-import HomeInfo from "./HomeInfo";
+
 
 export {
-    CTA,
-    Alert,
-    Loader,
-    Navbar,
-    Footer,
-    HomeInfo
-}
+    Alert, CTA, Footer, Loader,
+    Navbar
+};
