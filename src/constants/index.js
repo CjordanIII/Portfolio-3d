@@ -1,20 +1,21 @@
+import dfasfdsa from '';
 import {
-    contact,
-    css,
-    express,
-    git,
-    github,
-    html,
-    javascript,
-    linkedin,
-    mongodb,
-    nextjs,
-    nodejs,
-    react,
-    redux,
-    snapgram,
-    tailwindcss,
-    typescript
+  contact,
+  css,
+  express,
+  git,
+  github,
+  html,
+  javascript,
+  linkedin,
+  mongodb,
+  nextjs,
+  nodejs,
+  react,
+  redux,
+  snapgram,
+  tailwindcss,
+  typescript
 } from "../assets/icons";
 import { Forage, computer, proLogistix } from "../assets/images";
 
@@ -126,12 +127,11 @@ export const experiences = [
     ],
   },
 ];
-
 export const socialLinks = [
   {
     name: "Contact",
     iconUrl: contact,
-    link: "/contact",
+    link: "../pages/Contact",
   },
   {
     name: "GitHub",
