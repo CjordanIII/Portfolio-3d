@@ -131,7 +131,7 @@ export const socialLinks = [
   {
     name: "Contact",
     iconUrl: contact,
-    link: "/Contact",
+    link: "/contact",
   },
   {
     name: "GitHub",
