@@ -1,4 +1,4 @@
-import dfasfdsa from '';
+
 import {
   contact,
   css,
@@ -131,7 +131,7 @@ export const socialLinks = [
   {
     name: "Contact",
     iconUrl: contact,
-    link: "../pages/Contact",
+    link: "/Contact",
   },
   {
     name: "GitHub",
