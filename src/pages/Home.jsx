@@ -57,7 +57,7 @@ const Home = () => {
             development.{" "}
             <a
               className="text-red-700"
-              href="http://localhost:5173/resume.pdf"
+              href="https://clarence-jordaniii-portfolio.netlify.app/resume.pdf"
               download="resume.pdf"
             >
               Download Resume PDF
